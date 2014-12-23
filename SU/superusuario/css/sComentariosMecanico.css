@@ -1,0 +1,67 @@
+
+#caja{
+    margin:auto;
+    margin-top:0px;
+    float:center;
+    width: 550px;
+    height:280px;
+ 
+}
+input[name="nombre"]{
+    margin-left:2.6%; 
+    width:150px;  
+}
+input[name="rfc"]{  
+    margin-left:6.7%; 
+    width:150px;  
+}
+input[name="empresa"]{  
+    margin-left:1.9%;
+    width:150px;  
+}
+input[name="calle"]{  
+    margin-left:6%; 
+    width:150px;  
+}
+input[name="colonia"]{  
+    margin-left:2.8%;
+    width:150px;  
+}
+input[name="correo"]{  
+    margin-left:5%; 
+    width:150px;  
+}
+div#comentario{
+        position:relative;
+        
+	border: dashed 0px;
+	top: -170px;
+	left: 250px;
+	padding: 2em;
+	width: 45%;
+}
+ textarea[name="comment"]{
+    margin-left:2%;
+    width: 100px;
+    padding: 2em;
+    margin-bottom:30px;
+ }
+ div.footer{
+  with:100%;
+  height:170px;
+  position:center;
+ 
+  background-image:url(../media/footer.png);
+}
+p.rights{
+    position:relative;
+    text-align:center;
+    top:800px;
+    color:#b1b1b1;
+}
+p.rights a{
+    color:#248fc1;
+}
+p.rights a:hover{
+    text-decoration:underline; 
+}

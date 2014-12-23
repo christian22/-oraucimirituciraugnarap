@@ -1,0 +1,42 @@
+
+
+body {
+  margin:0px;
+  padding:0px;
+  font: 13px/1.6 Tahoma, sans-serif;
+  background: #F5F5F5;
+}
+
+#caja {
+  font-weight: bold;
+  background: #FFF;
+  margin:2em auto;
+  position: relative;
+  padding: 1em;
+  width: 600px;
+  height:100%;
+}
+
+h1 {
+  font: normal 2em arial, sans-serif;
+  margin:10px;
+}
+
+p{
+   
+    
+}
+#tabla{
+    position:relative;
+    top:0px;
+   left:300px
+    
+}
+
+#meca{
+    width: 600px;
+    
+}
+
+a { color:black; text-decoration:none;}
+a:hover{ color:#45E5D2; }

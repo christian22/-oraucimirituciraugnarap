@@ -1,0 +1,15 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="5">
+            <File firstVisibleLine="21" xOffset="0" scrollWidth="1416" startPos="1309" endPos="1309" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\Consultar_Mecanicos.php" backupFilePath="" originalFileLastModifTimestamp="1417193835" />
+            <File firstVisibleLine="191" xOffset="0" scrollWidth="1290" startPos="6089" endPos="6082" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\Ficha_Tecnica_Mecanicos.php" backupFilePath="" originalFileLastModifTimestamp="1417173185" />
+            <File firstVisibleLine="85" xOffset="0" scrollWidth="1670" startPos="2624" endPos="2624" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\Editar_Mecanico.php" backupFilePath="" originalFileLastModifTimestamp="1417027908" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2330" startPos="1064" endPos="1064" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\aphp\modif_meca1.php" backupFilePath="" originalFileLastModifTimestamp="1417106174" />
+            <File firstVisibleLine="8" xOffset="0" scrollWidth="1000" startPos="543" endPos="543" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\aphp\borrar.php" backupFilePath="" originalFileLastModifTimestamp="1417192202" />
+            <File firstVisibleLine="10" xOffset="80" scrollWidth="1579" startPos="346" endPos="346" selMode="0" lang="PHP" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\aphp\consult.php" backupFilePath="" originalFileLastModifTimestamp="1417196580" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="296" startPos="0" endPos="0" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\css\superStyle.css" backupFilePath="" originalFileLastModifTimestamp="1417027909" />
+            <File firstVisibleLine="9" xOffset="0" scrollWidth="307" startPos="402" endPos="402" selMode="0" lang="CSS" encoding="-1" filename="C:\xampp\htdocs\Proyectos\test\superusuario\css\sConsultarMecanicos.css" backupFilePath="" originalFileLastModifTimestamp="1417193781" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

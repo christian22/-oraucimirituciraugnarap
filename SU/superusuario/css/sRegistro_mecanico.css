@@ -1,0 +1,339 @@
+/*Agregar nuevo mecanico*/
+.contenedor{
+    background: whitesmoke;
+    width: 670px;
+    height: 760px;
+    margin:auto;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+}
+.titulo h1{
+    font-family:Arial;
+    font-size: 15pt;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*DATOS PERSONALES*/
+.datosPersonales{ 
+    width: 335px;
+    height: 220px;
+    margin-left:5px;
+    margin-top: 40px;
+    background: whitesmoke;
+} 
+.datosPersonales h3{
+    font-family:Arial;
+    font-size: 12pt;
+}
+.datosPersonales label1{
+    width: 125px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:13px;
+    position: absolute;
+}
+.datosPersonales label2{
+    width: 125px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:43px;
+    position: absolute;
+}
+.datosPersonales label3{
+    width: 125px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:73px;
+    position: absolute;
+}
+.datosPersonales label4{
+    width: 125px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:103px;
+    position: absolute;
+}
+.datosPersonales label5{
+    width: 125px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:133px;
+    position: absolute;
+}
+.datosPersonales input[name="nombre"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 130px;
+    margin-top: 10px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}    
+.datosPersonales input[name="apellidop"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 130px;
+    margin-top: 40px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+.datosPersonales input[name="apellidom"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 130px;
+    margin-top: 70px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+.datosPersonales input[name="cel"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 130px;
+    margin-top: 100px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+} 
+.datosPersonales input[name="email"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 130px;
+    margin-top: 130px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+/*Informacion adicional*/
+.datosTaller{
+    width: 320px;
+    height: 310px;
+    float: right;
+    margin-top: -237px;
+    background: whitesmoke;
+}
+.datosTaller h3{
+    font-family:Arial;
+    font-size: 12pt;
+}
+.datosTaller label1{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:13px;
+    position: absolute;
+}
+.datosTaller label2{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:43px;
+    position: absolute;
+}
+.datosTaller label3{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:73px;
+    position: absolute;
+}
+.datosTaller label4{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:103px;
+    position: absolute;
+}
+.datosTaller label5{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:133px;
+    position: absolute;
+}
+.datosTaller label6{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:163px;
+    position: absolute;
+}
+.datosTaller label7{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:193px;
+    position: absolute;
+}
+.datosTaller label8{
+    width: 105px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 0px;
+    margin-top:223px;
+    position: absolute;
+}
+.datosTaller input[name="empresa"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 10px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}    
+.datosTaller input[name="rfc"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 40px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+.datosTaller input[name="calle"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 70px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+.datosTaller input[name="colonia"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 100px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+} 
+.datosTaller input[name="municipio"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 130px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.datosTaller input[name="estado"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 160px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}   
+.datosTaller input[name="cp"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 190px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.datosTaller input[name="telefono"]{
+    width: 200px;
+    font-size: 11pt; 
+    margin-left: 110px;
+    margin-top: 220px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+/*BOTON Buscar, Guardar y Volver*/
+.contenedor button[name="Buscar Taller"]{  
+    width:110px;
+    height: 30px;
+    margin-left: 551px;
+    margin-top: 65px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.contenedor input[name="Guardar"]{  
+    width: 90px;
+    height: 30px;
+    margin-left: 473.5px;
+    margin-top: 415px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.contenedor input[name="Volver"]{  
+    width: 90px;
+    height: 30px;
+    margin-left: 570.5px;
+    margin-top: 415px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+/*MAPA*/
+.ubicacion h1{
+    font-family:Arial;
+    font-size: 15pt;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+#mapa{
+    width:650px;
+    height:300px;
+    margin:auto;
+    margin-top: 15px;
+    position: fixed;
+}

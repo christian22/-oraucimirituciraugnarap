@@ -1,0 +1,71 @@
+#caja{
+    background: #fff;
+    width: 500px;
+    padding: 1em;
+    border: 2px solid black;
+    margin: 0px 400px;
+    border-radius: 6px;
+    }
+input[name="cliente"]{
+    margin-left:17.8%; 
+    width: 200px;
+    padding: .25em;
+    margin-bottom:5px;
+}
+input[name="telefono"]{
+    margin-left:15.5%; 
+    width: 200px;
+    padding: .25em;
+    margin-bottom:5px;
+}
+input[name="correo"]{
+    margin-left:3%; 
+    width: 200px;
+    padding: .25em;
+    margin-bottom:5px;
+}
+input[name="carro"]{
+    margin-left:19.6%; 
+    width: 200px;
+    padding: .25em;
+    margin-bottom:5px;
+}
+textarea[name="mensaje"]{
+    margin-left:5%; 
+    width: 350px;
+    padding: 2em;
+    margin-bottom:5px;
+}
+     input[name="fecha"]{
+    margin-left:1%;
+    width: 125px;
+    padding: 0em;
+    margin-bottom:15px;;
+ }
+      input[name="hora"]{
+    margin-left:1%;
+    width: 130px;
+    padding: 0em;
+    margin-bottom:15px;;
+ }
+      select[multiple="multiple"]{
+    margin-left:1%;
+    width: 300px;
+    padding: 0em;
+    margin-bottom:15px;;
+ }
+      input[value="Posponer"]{
+    margin-left:44%;
+    width: 125px;
+    padding: 0em;
+    margin-bottom:15px;;
+ }
+      input[value="Confirmar"]{
+    margin-left:6%;
+    width: 125px;
+    padding: 0em;
+    margin-bottom:15px;;
+ }
+
+
+

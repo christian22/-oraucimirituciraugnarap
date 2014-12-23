@@ -1,0 +1,66 @@
+.caja{
+    background: whitesmoke;
+    width: 670px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+}
+.titulo h1{
+    font-family:Arial;
+    font-size: 15pt;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.profil{
+    width:200px;
+    height:200px;
+    margin: auto;
+    margin-top: 40px; 
+    border:1px solid #808080;
+    background-repeat: no-repeat; 
+    overflow:hidden;
+    background-size:cover;   
+    -webkit-border-radius: 50em;
+    -moz-border-radius: 50em;
+    border-radius: 50em;
+}
+.imagenperfil{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.cambiar label1{
+    width: 150px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 210px;
+    margin-top:13px;
+    position: absolute;
+}
+.cambiar a{
+    width: 150px;
+    font-family:Arial;
+    font-size: 11pt; 
+    color: black;
+    text-align: right;
+    margin-left: 290px;
+    margin-top:13px;
+    text-decoration:underline;
+    position: absolute;
+}
+/*.cambiar input[name="seleccionar"]{  
+    width: 90px;
+    height: 30px;
+    margin-left: 355.5px;
+    margin-top: 7px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}*/

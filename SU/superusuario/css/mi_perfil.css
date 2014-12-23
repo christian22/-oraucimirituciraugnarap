@@ -1,0 +1,69 @@
+#caja{
+    background: #fff;
+    width: 370px;
+    padding: 1em;
+    border: 2px solid black;
+    margin: 0px 490px;
+    border-radius: 6px;
+    }
+    
+    
+////////////////////////////////////
+/*Registro*/
+.modalbox h2{
+    color: white;
+    text-align: center;
+}
+
+.modalmask{
+    position: fixed;
+    /*font-family: Arial, sans-serif;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.50);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 600ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalbox{
+    width: 267px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background:white;
+    -webkit-transition: all 600ms ease-in;
+    -moz-transition: all 600ms ease-in;
+    transition: all 500ms ease-in;
+    -webkit-border-radius: 10px;
+}
+.movedown {
+    margin: 0 auto;
+}
+.modalmask:target .movedown{       
+    margin: 150px auto;
+}
+.close {
+    background:red;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+}
+.close:hover {
+    background: #606061;
+    color:#222;
+}

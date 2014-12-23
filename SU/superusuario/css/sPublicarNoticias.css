@@ -1,0 +1,48 @@
+#caja{
+    background: #fff;
+    width: 800px;
+    padding: 1em;
+    border: 2px solid black;
+    margin: 0px auto;
+    border-radius: 6px;
+    }
+h1{
+    font-family: arial;
+}
+ input[name="Comtenido"]{
+    margin-left:1%;
+    width: 400px;
+    padding: 2em;
+    margin-bottom:20px;
+ }
+  input[name="publicar"]{
+    margin-left:35%; 
+    width: 100px;
+    padding: 1em;
+    margin-bottom:30px;
+ }
+ input[name="Titulo"]{
+    margin-left:1%; 
+    width: 400px;
+    padding: .25em;
+    margin-bottom:10px;
+ }
+  input[name="foto"]{
+    margin-left:1%; 
+    width: 350px;
+    padding: 1em;
+    margin-bottom:30px;
+ }
+
+p.rights{
+    position:relative;
+    text-align:center;
+    top:800px;
+    color:#b1b1b1;
+}
+p.rights a{
+    color:#248fc1;
+}
+p.rights a:hover{
+    text-decoration:underline; 
+}

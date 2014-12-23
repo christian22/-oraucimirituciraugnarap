@@ -1,0 +1,368 @@
+body {
+  font: 13px/1.6 Tahoma, sans-serif;
+  background: #F5F5F5;
+}
+
+.izquierda {
+  float: left;
+  clear: left;
+}
+
+.derecha {
+  float: right;
+  clear: right;
+}
+
+ul1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor {
+  background: #FFF;
+  /*border: 1px solid silver;*/
+  margin: 1em auto;
+  padding: 1em;
+  width: 768px;
+}
+
+span.requerido {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #C00;
+}
+
+h2 {
+  font: normal 2em arial, sans-serif;
+  margin: 0;
+}
+
+ul1 li1.botones {
+ /* border-top: 2px solid #CCC;*/
+  clear: both;
+  float: none;
+  padding: 1em 0;
+  margin-top: 1em;
+  text-align: right;
+  width: 100%;
+} 
+
+ul1 li1.botones input {
+  font-size: 1.3em;
+} 
+
+ul1 li1 {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 46%;
+}
+
+ul1 li1 label.titulo {
+  font-weight: bold;
+}
+
+ul1 li1 div span {
+  float: left;
+  padding: 0.3em 0;
+}
+
+ul1 li1 div span.completo {
+  width: 100%;
+}
+
+ul1 li1 div span.mitad {
+  width: 50%;
+}
+
+ul1 li1 div span.tercio {
+  width: 33%;
+}
+
+ul1 li1 div span.dostercios {
+  width: 66%;
+}
+
+ul1 li1 div span label {
+  display: block;
+  font: normal 0.8em arial, sans-serif;
+  color: #333;
+}
+
+ul1 li1 p.ayuda {
+  display: none;
+}
+
+ul1 li1 input {
+  padding: 0.2em;
+}
+
+input#apellido1, input#apellido2, input#direccion, input#email {
+  width: 260px;
+}
+
+input#codigopostal {
+  width: 80px;
+}
+
+select#provincia {
+  width: 90px;
+}
+
+select#pais {
+  width: 150px;
+}
+
+input#telefonofijo, input#telefonomovil {
+  width: 135px;
+}
+
+/* Cambiar el color en el :hover y resaltar los campos en el :focus */
+ul1 li1 input:focus {
+  border: 2px solid #E6B700;
+}
+
+/* Formatear el formulario a una columna */ 
+ul1 li1.izquierda, ul1 li1.derecha {
+  float: none;
+  width: auto;
+}
+
+ul1 li1 {
+  overflow: hidden;
+}
+
+ul1 li1 label.titulo {
+  float: left;
+  width: 150px;
+}
+
+ul1 li1 div {
+  margin-left: 160px;
+}
+
+/* Aspecto final del formulario con los mensajes de ayuda */
+h2 {
+  margin-bottom: 0.3em;
+}
+/*
+ul1 li1 {
+  border-top: 1px solid #CCC;
+  margin: 0;
+  padding: 1em;
+}*/
+
+ul1 li1.botones {
+  margin: 0;
+}
+
+ul1 li1 label.titulo {
+  text-align: right;
+  width: 100px;
+}
+
+ul1 li1 div {
+  margin-left: 110px;
+  overflow: hidden;
+}
+
+ul1 li1 {
+  position: relative;
+} 
+
+ul1 li1:hover p.ayuda {
+  display: block;
+  margin: 0.3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 150px;
+}
+.panel {
+    background-color: #444;
+    height: 34px;
+    padding: 10px;
+}
+.panel a#login_pop, .panel a#join_pop {
+    border: 2px solid #aaa;
+    color: #fff;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+a#login_pop:hover, a#join_pop:hover {
+    border-color: #eee;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    left: 50%;
+    opacity: 0;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 10;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -ms-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -o-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+}
+.overlay:target+.popup {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.close {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    top: -15px;
+    width: 30px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-size: 24px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+    background-color: rgba(64, 128, 128, 0.8);
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+.popup label {
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+} 
+div.footer{
+  with:100%;
+  height:170px;
+  position:center;
+ 
+  background-image:url(../media/footer.png);
+}
+p.rights{
+    position:relative;
+    text-align:center;
+    top:800px;
+    color:#b1b1b1;
+}
+p.rights a{
+    color:#248fc1;
+}
+p.rights a:hover{
+    text-decoration:underline; 
+}
+
+footer{
+	background-color: #0174DF;
+	bottom: 0;
+	box-shadow: 0 -1px 2px #111111;
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 100000;
+}
+
+footer h2{
+	color: #0000FF; /*EEEE*/
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#0000FF;
+}
+
+footer a.tzine,a.tzine:visited{
+	color: #FFFFFF;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+footer a i{
+	color:#ccc;
+	font-style: normal;
+}
+
+footer a i b{
+	color:#c92020;
+	font-weight: normal;
+}

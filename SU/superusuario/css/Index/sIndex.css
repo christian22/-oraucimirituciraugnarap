@@ -1,0 +1,114 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: #F0EDED;
+}#background{
+    position:fixed; 
+    z-index:-999; 
+    width:100%; 
+    height:100%;
+}
+.ventana{
+    margin: auto;
+    /*position: absolute;*/
+    /*top: 261px;  Buscamos el centro horizontal (relativo) del navegador */
+    /*left: 50%;  Buscamos el centro vertical (relativo) del navegador */
+    width: 1200px; /*Definimos el ancho del objeto a centrar*/ 
+    height: 630px;  /*Definimos el alto del objeto a centrar */
+    margin-top: 0;  /*Restamos la mitad de la altura del objeto con un margin-top */
+    /*margin-left: -650px;  Restamos la mitad de la anchura del objeto con un margin-left*/
+}
+/*VENTANA DESCRIPCION*/
+.ventdescripcion{
+    width: 700px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: absolute;
+}
+/*LOGO*/
+/*DESCRIPCION*/
+.descripcion2{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+}
+/*LOGIN*/
+.login{
+    width: 300px;
+    height: 195px;
+    margin-left: 850px;
+    margin-top: 30px;
+    /*background-color: #0b2d4f;*/ 
+    -webkit-border-radius: 10px;
+    position: absolute;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #0b2d4f) );
+    background:-moz-linear-gradient( center top, #006699 5%, #0b2d4f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#0b2d4f');
+    background-color:#006699;
+}
+.login input[name="user"]{
+    width: 230px;
+    height: 20px;
+    margin-left: 33px;
+    margin-top: 30px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.login input[name="num"]{  
+    width: 100px;  
+    height: 20px;
+    margin-left: 33px;
+    margin-top: 85px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.login input[name="password"]{  
+    width: 120px;  
+    height: 20px;
+    margin-left: 143px;
+    margin-top: 85px;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.login input[name="login"]{  
+    width: 90px;
+    height: 30px;
+    margin-left: 105px;
+    margin-top: 137.5px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+.login text{
+    color: white;
+    margin-left: 45px;
+    margin-top: 185px;
+    position: absolute;
+}
+/*PIE DE PAGINA*/
+.footertext{
+    width: 1200px;
+    height: 20px;
+    margin: auto;
+    margin-top:0;
+    color: white;
+    text-align: center;
+    line-height: 3px;
+    /*position: absolute;*/
+}

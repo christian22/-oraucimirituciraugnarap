@@ -1,0 +1,100 @@
+.modalmask{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.50);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 600ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.movedown {
+    margin: 0 auto;       
+}
+.modalmask:target .movedown{       
+    margin: 140px auto;
+}
+/*CERRAR MODAL*/
+.close {
+    background: #0b2d4f;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    /*right: 1px;*/
+    margin-left: 276px;
+    text-align: center;
+    /*top: 1px;*/
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+}
+.close:hover {
+    background: #606061;
+    color:#222;
+}
+.modalbox{
+    width: 300px;
+    height: 360px;
+    position: relative;
+    background: #0b2d4f;
+    -webkit-transition: all 600ms ease-in;
+    -moz-transition: all 600ms ease-in;
+    transition: all 500ms ease-in;
+    -webkit-border-radius: 10px;
+}
+.modalbox label{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: larger; 
+    color: white;
+    text-align: center;
+    margin-left: 65px;
+    margin-top:-5px;
+    position: absolute;
+}
+.modalbox textArea[name="nombre"]{
+    width: 230px;  
+    height: 200px;
+    /*text-align: center;*/
+    -webkit-border-radius: 5px;    
+    display: block;
+    margin-left: 33px;
+    margin-top: 40px;
+    position: absolute;
+}
+.modalbox input[name="aceptar"]{  
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 280px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}
+.modalbox input[name="rechazar"]{  
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin-left: 177px;
+    margin-top: 280px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+}

@@ -1,0 +1,25 @@
+#navbar{   
+    position:fixed;
+    right:0;left:0;
+    top:0;
+    height: 60px;
+    /*background-color:#B5B5B5;*/
+    background-color:#006699;    
+}
+#navbar2{  
+    margin: auto; 
+    width: 1200px;
+    height: 60px;    
+}
+.logotipo{
+    margin-top: 3px;
+    width: 70px;
+    height: 60px;
+    margin-left: 15px;
+}
+img{
+    margin: auto;
+    width: 35px;
+    height: 30px;
+    margin-left: 15px;
+}
