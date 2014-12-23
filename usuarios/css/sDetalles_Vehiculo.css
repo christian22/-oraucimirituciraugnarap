@@ -1,0 +1,74 @@
+#caja{
+    background: #fff;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid black;
+    margin: 0px 500px;
+    border-radius: 6px;
+}
+input[name="modelo"]{
+    margin-left:17%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="marca"]{
+    margin-left:19.5%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="tipo"]{
+    margin-left:23%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="kilometraje"]{
+    margin-left:9%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+    input[name="smotor"]{
+    margin-left:3%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="cilindraje"]{
+    margin-left:12.5%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="clave_vehicular"]{
+    margin-left:0%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="transmision"]{
+    margin-left:7%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+input[name="rotacion"]{
+    margin-left:14%; 
+    width: 100px;
+    padding: 0.5em;
+    margin-bottom:15px;
+}
+input[name="editar"]{
+    margin-left:68%; 
+    width: 100px;
+    padding: 0.4em;
+    margin-bottom:10px;   
+}
+h1{
+    font-family: arial;
+}
+body{
+    background: #fff;
+}

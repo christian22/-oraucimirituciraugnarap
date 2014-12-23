@@ -1,0 +1,88 @@
+#caja{
+    width: 700px;
+    height: 510px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 6px ;
+}
+#caja1{
+    width: 70px;
+    height: 70px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 2px ;
+    position:absolute;
+}
+#mecanico{
+    margin-left:17%;
+}
+input[name="nombre"]{ 
+    margin-left:1%; 
+    width:200px;  
+}
+#taller{
+    margin-left:17%;
+}
+input[name="empresa"]{
+    margin-left:4.8%; 
+    width:200px;  
+}
+input[name="telefono"]{ 
+    margin-left:2%; 
+    width:200px;  
+}
+input[name="email"]{  
+    margin-left:4.6%; 
+    width:200px;  
+}
+input[name="calle"]{  
+    margin-left:5.2%; 
+    width:200px;  
+}
+input[name="colonia"]{  
+    margin-left:2.8%; 
+    width:200px;  
+}
+input[name="dias"]{  
+    margin-left:5.9%; 
+    width:200px;  
+}
+input[name="horarioe"]{  
+    margin-left:3%;  
+}
+input[name="horarios"]{  
+    margin-left:3%;  
+}
+input[name="notas"]{  
+    margin-left:4.7%;
+    width:200px;
+}
+input[name="servicios"]{  
+    margin-left:1.5%;
+    width:200px;
+}
+.ubicacion{
+    position: relative;
+    top: -375px;
+    left: 100px;
+    margin: 1px 380px;
+}
+.mapa{
+    position:relative;
+    border: 1px solid black;      
+    top: -350px;
+    width: 250px;
+    height: 250px;
+    margin: 1px 400px;      
+}
+input[value="Agendar"]{
+    position:relative;
+    top: -325px;
+    width: 100px;
+    height: 30px;
+    margin-left: 500px;
+}
+#servicios{
+    margin-left: 200px;
+    margin-top: -101px;
+}

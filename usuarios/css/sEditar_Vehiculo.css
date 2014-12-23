@@ -1,0 +1,62 @@
+#caja{
+    background: #fff;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid black;
+    margin: 0px 500px;
+    border-radius: 6px;
+}
+select[name="modelo"]{
+    margin-left:3.4%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="tipo"]{
+    margin-left:21%; 
+    width: 110px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="marca"]{
+    margin-left:6%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="cilindraje"]{
+    margin-left:8%; 
+    width: 50px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="transmision"]{
+    margin-left:6%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="clave"]{
+    margin-left:3%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="smotor"]{
+    margin-left:5%; 
+    width: 250px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="kilometraje"]{
+    margin-left:5%; 
+    width: 250px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="guardar"]{
+    margin-left:70%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}

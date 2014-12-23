@@ -1,0 +1,39 @@
+.titulo{
+    margin-left: 200px;
+    width: 50%;
+    height:0px;
+    padding: .7em;
+    margin: 1px 210px; 
+}
+.agendar_cita{
+    width: 700px;
+    height:360px;
+    padding: 1em;
+    margin: 0px 10px; 
+}
+input[name="mecanico"]{
+    margin-left:4%; 
+    width:200px;  
+}
+input[name="taller"]{  
+    margin-left:2%; 
+    width:200px;
+}
+input[name="Agendar"]{
+	margin-left:55%; 
+    width: 80px;
+    padding: .25em;
+    margin-top: -70%;
+}
+input[name="Cancelar"]{ 
+    margin-left:5%;
+    width: 80px;
+    padding: .25em;
+} 
+textarea[name="comment"]{
+    margin-left:49%; 
+    width: 35%;
+    padding: 1em;
+    margin-bottom:50px;
+    margin-top: -10%;
+} 

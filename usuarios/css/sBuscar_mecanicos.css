@@ -1,0 +1,103 @@
+.caja{
+    background: whitesmoke;
+    width: 670px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid whitesmoke;
+}
+/*Buscar Mecanicos*/
+.titulo h1{
+    font-family:Arial;
+    font-size: 15pt;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.buscarBtns{
+    width: 321px;
+    height: 20px;
+    margin-left: 305px;
+    margin-top: 40px;
+}
+.buscarBtns input[name="Buscar"]{
+    width: 305px;
+    height: 20px;
+    font-size: 10pt;
+    margin-left: 0px;
+    margin-top: 0px;
+    /*-webkit-border-radius: 5px;*/
+    position: absolute;
+    border:1px solid black;
+}
+.buscarBtns input[name="boton"]{
+    width: 15px;
+    height: 18px;
+    margin-left: 304.5px;
+    margin-top: -9px;
+    border:1px solid black;
+}
+/*TABLA*/
+.datagrid{
+    margin: auto;
+    width: 610px;
+    margin: auto;    
+    margin-top: 40px;
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+/*    background: #fff; */
+    background: whitesmoke;
+    overflow: hidden; 
+    /*border: 1px solid #006699;*/
+    /*border: 1px solid #2a6c9b;*/    
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;     
+}
+.datagrid table {
+    border-collapse: collapse; 
+    text-align: center; 
+    width: 610px; 
+} 
+.datagrid table td, .datagrid table th { 
+    padding: 18px 10px; 
+}
+.datagrid table thead th {
+/*        background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #025E8D) );
+        background:-moz-linear-gradient( center top, #006699 5%, #025E8D 100% );
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#025E8D');*/
+    background-color:#006699;
+    color:#FFFFFF; 
+    font-size: 15px; 
+    font-weight: bold; 
+    /*border-left: 1px solid #0070A8;*/
+    border: 3px solid #2a6c9b;
+} 
+.datagrid table tbody td { 
+    color: #00496B; 
+    /*border-left: 1px solid #E1EEF4;*/
+    font-size: 12px;font-weight: normal; 
+}
+/*IMAGEN DENTRO DE LA TABLA*/
+.imagenperfil{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    -webkit-border-radius: 20em;
+    -moz-border-radius: 20em;
+    border-radius: 20em;
+}
+/*CAMBIO DE COLORES DE LA TABLA*/
+.fila_0 { background-color: #E1E8F1;}
+.fila_1 { background-color: whitesmoke;}
+/*BOTON ELIMINAR y AGENDAR DE LA TABLA*/
+.tabla input[name='agregar']{  
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    /*margin-left: 80px;*/
+    /*margin-top: 160px;*/
+    -webkit-border-radius: 5px;
+    /*position: absolute;*/
+}

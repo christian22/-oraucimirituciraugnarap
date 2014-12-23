@@ -1,0 +1,208 @@
+/*#background {  
+background: center center no-repeat fixed; 
+background-size: cover; 
+} 
+#background {  
+background: center center no-repeat fixed; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+}*/
+
+
+/*#background{
+    position:fixed; 
+    z-index:-999; 
+    width:100%; 
+    height:100%;
+}*/
+*{ 
+    margin: 0;
+    padding: 0;
+} 
+#login{
+    background-color: #0b2d4f; 
+    margin: 50px 1024px;
+    padding: 2em;
+    width: 250px;
+    -webkit-border-radius: 10px;
+}
+#login input[name="email"]{
+    width: 241px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}
+#login input[name="contrasena"]{  
+    width: 120px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;
+}
+#login input[name="aceptar"]{  
+    background-color: #0a548b;
+    border: 2px;
+    border-style:solid;
+    border-color:#2a6c9b;
+    width: 90px;
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+    margin-left: 26px;
+    -webkit-border-radius: 5px;
+}
+#login text{
+    color: white;
+    margin-left: 20px;
+}
+#login a[name="a1"]{
+    color: white;
+    margin-left: 30px; 
+    /*text-decoration: none;*/
+}
+#login a[name="a2"]{
+    color: white; 
+/*    text-decoration: none;*/
+}
+/*Registro*/
+.modalbox h2{
+    color: white;
+    text-align: center;
+}
+.modalbox input[name="nombre"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;    
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="apellidop"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;   
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="apellidom"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;   
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="email"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;   
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="contrasena"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;   
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="contrasenar"]{
+    width: 200px;  
+    padding: 1%;
+    text-align: center;
+    -webkit-border-radius: 5px;   
+    display: block;
+    margin-left: 11%;
+}
+.modalbox input[name="Registrar"]{  
+    background-color: #0a548b;
+    border: 2px;
+    border-style:solid;
+    border-color:#2a6c9b;
+    width: 90px;
+    padding: 1.5%;
+    text-align: center;
+    color: white;
+    margin-left: 56%;
+    -webkit-border-radius: 5px;
+}
+.modalmask{
+    position: fixed;
+    /*font-family: Arial, sans-serif;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.50);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 600ms ease-in;
+    pointer-events: none;
+}
+.modalmask:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalbox{
+    width: 267px;
+    position: relative;
+    padding: 5px 20px 13px 20px;
+    background: #0b2d4f;
+    -webkit-transition: all 600ms ease-in;
+    -moz-transition: all 600ms ease-in;
+    transition: all 500ms ease-in;
+    -webkit-border-radius: 10px;
+}
+.movedown {
+    margin: 0 auto;
+}
+.modalmask:target .movedown{       
+    margin: 150px auto;
+}
+.close {
+    background: #0b2d4f;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    top: 1px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius:3px;
+}
+.close:hover {
+    background: #606061;
+    color:#222;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 100; /*Depende el valor segun las capas flotantes que tengas*/ 
+    left: 0;  /*Depende el Ancho de donde se va a colocar*/ 
+    background-color:#B5B5B5;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    height:30px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 100; /*Depende el valor segun las capas flotantes que tengas*/ 
+    left: 0;  /*Depende el Ancho de donde se va a colocar*/ 
+    background-color:#B5B5B5;
+    color: black;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    height:30px;
+}

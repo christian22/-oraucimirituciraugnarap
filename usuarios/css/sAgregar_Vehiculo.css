@@ -1,0 +1,73 @@
+#caja{
+
+   margin:0px 170px;
+    background: #fff;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 6px;
+	
+}
+select[name="drop_1"]{
+    margin-left:7%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="drop_2"]{
+    margin-left:10px; 
+    width: 110px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+select[name="drop_3"]{
+    margin-left:10px; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+div[name="cilin"]{
+	float:left;
+	margin-left: 10%;
+}
+input[name="cilindraje"]{
+    margin-left:10%;
+    width: 50px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+div[name="trans"]{
+	float: right;
+	margin-right:10%;
+}
+input[name="transmision"]{
+    margin-left:8%; 
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="clave"]{
+    margin-left: 3%; 
+    width: 250px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="smotor"]{
+    margin-left:7%; 
+    width: 250px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="kilometraje"]{
+    margin-left:31px; 
+    width: 250px;
+    padding: .25em;
+    margin-bottom:10px;
+}
+input[name="agregar"]{
+    margin-left:38%;
+	margin-top: 5%;
+    width: 100px;
+    padding: .25em;
+    margin-bottom:10px;
+}
